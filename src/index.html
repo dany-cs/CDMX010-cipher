@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Cesar Cipher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="inicial" style="display: visible;">
+    <h1>MENSAJES CIFRADOS</h1>
+    <b style="font-size: x-large;">¡Hola bienvenida!</b>
+  <p>Aqui podras escribir tu mensaje que quieras codificar o bien decodificar</p>
+    <p>INSTRUCCIONES: 1-ingresa el numero de desplazamientos que deseas para tu codigo</p>
+    <p>2-preciona OK</p>
+    <p>3-escribe tu mensaje</p>
+    <p>4-y listo tu mensaje estara codificado o decoficado segun sea el caso</p>
+    
+    <br>
+    <button id="inicio" type="button" class="binicio" onclick="inicialb();">¡vamos a divertirnos!</button>
+  </div>
+    
+    <div id="ctexto" class="contenedor" style="display: none;">
+
+    <h3>Ingrese el número de desplazamientos.</h3>
+    <!-- Botón para adicionar el número de offset -->
+    <input class="num" type="number" min="0" pattern="^[0-9]" name="offset">
+  
+    <p>aqui podras escribir tu mensaje y cifrarlo</p>
+    <textarea class="first" id="texdecode" placeholder="Escriba el texto a cifrar."></textarea>
+    <br>
+    <button id="medioa" type="button" class="medio" onclick="textoa()">Cifrar</button>
+
+    <p>aqui podras decifrar tu mensaje en codigo</p>
+    <textarea class="first" id="texdecode" placeholder="Escriba el texto a descifrar."></textarea>
+    <br>
+    <button id="mediob" type="button" class="medio" onclick="textoa()">Decifrar</button>
+  </div>
+  <!--<div class="cesitar"></div>-->
+
+  <div id="msfin" class="contenedor" style="display:none;">
+    <h1>¡Tu mensaje es el siguiente!</h1>
+    <textarea  class="first" id="texresult" placeholder="respuesta."></textarea>
+    <br>
+    <button id="final" class="bfinal" onclick="principal()">menu principal</button>
+  
+  </div>
+
+  
+</body>
+<script src="index.js"></script>
 </html>

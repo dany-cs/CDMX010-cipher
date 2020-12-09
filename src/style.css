@@ -1,0 +1,94 @@
+
+body {font-family:system-ui;
+    background-image:url(https://t4.ftcdn.net/jpg/03/02/67/33/240_F_302673330_rmRiYSFgCTNM6Uv2jZNeyrwXYMfwbZ2J.jpg);
+    background-size: 1500px;
+    color:white;
+    -ms-ime-align:center;
+    text-align:center;
+    justify-content:center;
+}
+.binicio{
+    width: 25%;
+    border-radius: 20px;
+    background-color: rgb(187, 37, 233);
+    border: dashed black;
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px 0px;
+    
+}
+.binicio:hover{
+    background-color: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+
+}
+.num {
+    height: 30px;
+    width: 45px;
+    background-color: blanchedalmond;
+    font-size: 20px;
+}
+.ok{
+    width: 60px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin: 15px;
+    padding: 5px 3px;
+}
+.ok:hover{
+    box-shadow: 5px 5px 5px;
+    padding-top: 8px;
+}
+.texterea {
+    resize: horizontal;
+    height: 20px;
+    width: 30px;
+}
+
+.contenedor{
+display: flex;
+flex-flow: column;
+align-items: center;
+-ms-ime-align:center;
+}
+.contenedor textarea{
+    height: 150px;
+    width: 300px;
+    background-color: blanchedalmond;
+}
+.medio {
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(210, 255, 47);
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin: 15px;
+    padding: 5px 0px;
+}
+.medio:hover{
+    box-shadow: 5px 5px 5px;
+    padding-top: 8px;
+}
+.bfinal{
+    width: 13%;
+    border-radius: 20px;
+    background-color: rgb(187, 37, 233);
+    border: dashed black;
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    margin: 25px;
+    padding: 25px 0px;
+}
+.bfinal:hover{
+    background-color: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+}
+
+    
