@@ -1,4 +1,6 @@
+/*
 import cipher from './cipher.js';
+<<<<<<< HEAD
 
 function click() {
     let mensaje= document.getElementById(mensaje);
@@ -53,3 +55,15 @@ function principal() {
     //addEventLissener
     //obtener el valor  .value
     //invocar tu funcion cipher.encode y mandar como parametro los 2 valores Offset y mensaje
+=======
+//Aqui se manipula el DOM
+console.log(cipher);
+*/
+
+//La siguiente linea accede al DOM
+let nodo=document.querySelector(".cesitar") //Esta no es la unica forma de acceder al dom
+//La siguiente linea es una variable con el texto a insertar en la linea 12
+let nombre="Holaaaaa Chavas me llamo DANNY"
+//La siguiente linea inserta HTML al DOM
+nodo.innerHTML=`<h1>${nombre}</h1>`
+>>>>>>> eafc74c0a86539d4aa6bd5b4fe7a42ce10c3e295

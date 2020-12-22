@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body {font-family:system-ui;
     background-image:url(https://t4.ftcdn.net/jpg/03/02/67/33/240_F_302673330_rmRiYSFgCTNM6Uv2jZNeyrwXYMfwbZ2J.jpg);
@@ -92,3 +93,13 @@ align-items: center;
 }
 
     
+=======
+body{font-family:system-ui;
+    background-image:url(https://t4.ftcdn.net/jpg/03/02/67/33/240_F_302673330_rmRiYSFgCTNM6Uv2jZNeyrwXYMfwbZ2J.jpg);
+    background-size: 1500px;
+    color:white;
+    img-align:center;
+    text-align:center;
+    justify-content:center;
+    }
+>>>>>>> eafc74c0a86539d4aa6bd5b4fe7a42ce10c3e295
