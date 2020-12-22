@@ -1,6 +1,6 @@
 /*
-import cipher from './cipher.js';
-<<<<<<< HEAD
+import cipher from './cipher.js'
+
 
 function click() {
     let mensaje= document.getElementById(mensaje);
