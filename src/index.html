@@ -8,46 +8,50 @@
 </head>
 
 <body>
-  <div id="inicial" style="display: visible;">
+  <div id="inicial" style="display: block;">
     <h1>MENSAJES CIFRADOS</h1>
-    <b style="font-size: x-large;">¡Hola bienvenida!</b>
-  <p>Aqui podras escribir tu mensaje que quieras codificar o bien decodificar</p>
-    <p>INSTRUCCIONES: 1-ingresa el numero de desplazamientos que deseas para tu codigo</p>
-    <p>2-preciona OK</p>
-    <p>3-escribe tu mensaje</p>
+    <b style="font-size: x-large;">¡Hola bienvenidx!</b>
+    <p>Nos da gusto que estes aqui!</p>
+    <p> En ese citio web podras escribir tu mensaje que desees enviar en codigo o bien que desees decifrar</p>
+    <br>
+    <h2>INSTRUCCIONES:</h2>
+    <p>1-ingresa el numero de desplazamientos que deseas para tu codigo</p>
+    <p>2-escribe tu mensaje</p>
+    <p>3-da click en cifrar o decifrar</p>
     <p>4-y listo tu mensaje estara codificado o decoficado segun sea el caso</p>
-    
+    <br>
     <br>
     <button id="inicio" type="button" class="binicio" onclick="inicialb();">¡vamos a divertirnos!</button>
   </div>
-    
-    <div id="ctexto" class="contenedor" style="display: none;">
+
+  <div id="ctexto" class="contenedor" style="display: none;">
 
     <h3>Ingrese el número de desplazamientos.</h3>
     <!-- Botón para adicionar el número de offset -->
-    <input class="num" type="number" min="0" pattern="^[0-9]" name="offset">
-  
+    <input class="num" type="number" min="0" pattern="^[0-9]" id="offset()">
+
     <p>aqui podras escribir tu mensaje y cifrarlo</p>
-    <textarea class="first" id="texdecode" placeholder="Escriba el texto a cifrar."></textarea>
+    <textarea id="texdecode" placeholder="Escriba el texto a cifrar."></textarea>
     <br>
     <button id="medioa" type="button" class="medio" onclick="textoa()">Cifrar</button>
 
     <p>aqui podras decifrar tu mensaje en codigo</p>
-    <textarea class="first" id="texdecode" placeholder="Escriba el texto a descifrar."></textarea>
+    <textarea id="texdecode" placeholder="Escriba el texto a descifrar."></textarea>
     <br>
     <button id="mediob" type="button" class="medio" onclick="textoa()">Decifrar</button>
   </div>
   <!--<div class="cesitar"></div>-->
 
-  <div id="msfin" class="contenedor" style="display:none;">
+  <div id="msfin" class="contenedor" style="display: none;">
     <h1>¡Tu mensaje es el siguiente!</h1>
-    <textarea  class="first" id="texresult" placeholder="respuesta."></textarea>
+    <textarea id="texresult" placeholder="Respuesta."></textarea>
     <br>
     <button id="final" class="bfinal" onclick="principal()">menu principal</button>
-  
+
   </div>
 
-  
+
 </body>
 <script src="index.js"></script>
+
 </html>

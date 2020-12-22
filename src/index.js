@@ -1,8 +1,12 @@
-/*
 import cipher from './cipher.js';
-//Aqui se manipula el DOM
-console.log(cipher);
-*/
+
+function click() {
+    let mensaje= document.getElementById(mensaje);
+    let offset= document.getElementById(offset);
+    let resultado=encode(offset.value);
+    let resuloffset= document.getElementById(resultado)
+    
+}
 
 //La siguiente linea accede al DOM
 /**let nodo=document.querySelector(".cesitar"); //Esta no es la unica forma de acceder al dom
@@ -18,16 +22,20 @@ function inicialb() {
 }
 
 function textoa() {
-    document.getElementById("msfin").style.display="block";
-    document.getElementById("ctexto").style.display="none";
-    
+    document.getElementById("msfin").style.display = "block";
+    document.getElementById("ctexto").style.display = "none";
+
 }
 
 function principal() {
-    document.getElementById("inicial").style.display="block";
-    document.getElementById("msfin").style,display="none";
+    document.getElementById("msfin").style.display = "none";
+    document.getElementById("inicial").style.display = "block";
+    document.getElementById("msfin").style, display = "none";
     
+
 }
+
+
 //function clickfunction(){
    // let cajauno=document.getElementById("texcifrar");
     //let offset=document.getElementById(offset);//
@@ -36,3 +44,12 @@ function principal() {
     //let cajatres= cajauno.value
 
 
+   // import cipher from './cipher.js';
+
+    //console.log(cipher);
+
+
+
+    //addEventLissener
+    //obtener el valor  .value
+    //invocar tu funcion cipher.encode y mandar como parametro los 2 valores Offset y mensaje
