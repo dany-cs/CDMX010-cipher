@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
 
 <head>
   <meta charset="utf-8">
@@ -29,54 +28,25 @@
 
     <h3>Ingrese el número de desplazamientos.</h3>
     <!-- Botón para adicionar el número de offset -->
-    <input class="num" type="number" min="0" pattern="^[0-9]" id="offset()">
+    <input class="num" type="number" min="0" max="10"id="offset">
 
-    <p>aqui podras escribir tu mensaje y cifrarlo</p>
-    <textarea id="texdecode" placeholder="Escriba el texto a cifrar."></textarea>
+    <p>aqui podras escribir tu mensaje y cifrarlo o decifrar</p>
+    <textarea id="texto" placeholder="Escriba el texto a cifrar o decifrar."></textarea>
     <br>
-    <button id="medioa" type="button" class="medio" onclick="textoa()">Cifrar</button>
-
-    <p>aqui podras decifrar tu mensaje en codigo</p>
-    <textarea id="texdecode" placeholder="Escriba el texto a descifrar."></textarea>
-    <br>
-    <button id="mediob" type="button" class="medio" onclick="textoa()">Decifrar</button>
+    <button id="medioa" type="button" class="medio">cifrar</button>
+    <button id="mediob" type="button"  class="medio">Decifrar</button>
   </div>
-  <!--<div class="cesitar"></div>-->
 
   <div id="msfin" class="contenedor" style="display: none;">
     <h1>¡Tu mensaje es el siguiente!</h1>
-    <textarea id="texresult" placeholder="Respuesta."></textarea>
+    <p id="texresult" class="final"></p>
+    <p id="texdecode" class="final"></p>
     <br>
-    <button id="final" class="bfinal" onclick="principal()">menu principal</button>
+    <button type="button" id="final" class="bfinal" onclick="principal()">menu principal</button>
 
   </div>
-
-
+<!--<script src="cipher.js"></script>-->
+  <script type="module" src="index.js"></script>
 </body>
-<script src="index.js"></script>
-
-</html>
-=======
-  <head>
-    <meta charset="utf-8">
-    <title>Cesar Cipher</title>
-    <link rel="stylesheet" href="style.css">
-
-  </head>
-  <body>
-    <div id="root">
-      <h1>¡Hola bienvenida!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-
-  </body>
-  <p>Aqui podras escribir tu mensaje que quieres mandar en codigo </p>
-  <input type="ingresa texto">
-  <button 150px>cifrar</button>
-<p>aqui podras decifrar tu mensaje en codigo</p>
-<input type="">
-<button>decifrar</button>
-<p>¡Ten por seguro que nadie mas podra ver esto!</p>
-
 <div class="cesitar"></div>
 </html>
